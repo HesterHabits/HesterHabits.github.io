@@ -12,21 +12,6 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
-    google-protobuf (4.27.0)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.0-aarch64-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.0-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.0-x86-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.0-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
     google-protobuf (4.27.0-x86_64-linux)
       bigdecimal
       rake (>= 13)
@@ -81,50 +66,7 @@ GEM
       strscan (>= 3.0.9)
     rouge (4.2.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.77.2)
-      google-protobuf (>= 3.25, < 5.0)
-      rake (>= 13.0.0)
-    sass-embedded (1.77.2-aarch64-linux-android)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-aarch64-linux-gnu)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-aarch64-linux-musl)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-aarch64-mingw-ucrt)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-arm-linux-androideabi)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-arm-linux-gnueabihf)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-arm-linux-musleabihf)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-arm64-darwin)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-riscv64-linux-android)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-riscv64-linux-gnu)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-riscv64-linux-musl)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86-cygwin)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86-linux-android)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86-linux-gnu)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86-linux-musl)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86-mingw-ucrt)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86_64-cygwin)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86_64-darwin)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86_64-linux-android)
-      google-protobuf (>= 3.25, < 5.0)
     sass-embedded (1.77.2-x86_64-linux-gnu)
-      google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86_64-linux-musl)
       google-protobuf (>= 3.25, < 5.0)
     strscan (3.1.0)
     terminal-table (3.0.2)
@@ -133,30 +75,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  aarch64-linux
-  aarch64-linux-android
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  aarch64-mingw-ucrt
-  arm-linux-androideabi
-  arm-linux-gnueabihf
-  arm-linux-musleabihf
-  arm64-darwin
-  riscv64-linux-android
-  riscv64-linux-gnu
-  riscv64-linux-musl
-  ruby
-  x86-cygwin
-  x86-linux
-  x86-linux-android
-  x86-linux-gnu
-  x86-linux-musl
-  x86-mingw-ucrt
-  x86_64-cygwin
-  x86_64-darwin
-  x86_64-linux
-  x86_64-linux-android
-  x86_64-linux-musl
+  x86_64-linux-gnu
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
@@ -168,4 +87,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.5.10
+   2.4.19
