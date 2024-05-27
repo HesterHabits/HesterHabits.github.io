@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+## Hester Habits
+
+Testing jekyll blog...
+
